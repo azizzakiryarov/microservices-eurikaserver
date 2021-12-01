@@ -1,4 +1,4 @@
-giteureka:
+eureka:
   instance:
     appname: eurikaserver
   client:
