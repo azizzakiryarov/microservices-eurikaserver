@@ -1,11 +1,4 @@
-#server.port=8761
-#eureka.client.register-with-eureka=false
-#eureka.client.fetch-registry=false
-#eureka.client.service-url.default-zone=http://$microservices.svc.cluster.local:8761/eureka
-#eureka.instance.hostname=localhost
-#eureka.instance.appname=eurikaserver
-
-eureka:
+giteureka:
   instance:
     appname: eurikaserver
   client:
