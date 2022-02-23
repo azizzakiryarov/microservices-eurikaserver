@@ -5,7 +5,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://microservices-eurikaserver-deployment-0.eurikaserver.microservices.svc.cluster.local:8761/eureka/
+      defaultZone: http://microservices-eurikaserver-statefulset-0.eurikaserver.microservices.svc.cluster.local:8761/eureka/
 
 server:
   port: 8761

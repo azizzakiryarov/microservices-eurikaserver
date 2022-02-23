@@ -1,1 +1,1 @@
-kubectl delete statefulset.apps/microservices-eurikaserver-deployment service/eurikaserver
+kubectl delete statefulset.apps/microservices-eurikaserver-statefulset service/eurikaserver
